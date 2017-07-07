@@ -1,0 +1,78 @@
+/* css reset */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address,
+variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ol {
+  margin-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  margin-left: 1.4em;
+  list-style:square;
+}
+img {
+  border: 0;
+}
+/* End css reset */
+/* question is it ok to have reset then style rules for elements?*/
+/* question: is it ok to distinguish the different blog entries with border?*/
+#titlebar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 2%;
+}
+
+h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 2%;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+
+#main {
+  margin: 2%;
+}
+
+#stanford-logo {
+  width: 100px;
+  height: 100px;
+}
+.entry {
+  border: 2px solid gray;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+.entryheading {
+  color: rgb(136,0,0);
+}
+
+.entrytitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.entrydate {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.entryfooter {
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: rgb(136,0,0);
+}
+
+#memorial-church {
+  width: 100%;
+  margin-top: 2%;
+  border: 2px solid rgb(136,0,0);
+}

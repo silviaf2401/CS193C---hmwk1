@@ -1,0 +1,120 @@
+/* Css reset*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address,
+variable, form, fieldset, blockquote {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+ol {
+  margin-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  margin-left: 1.4em;
+  list-style:square;
+}
+img {
+  border: 0;
+}
+/* End css reset*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px;
+}
+#header{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 2% 2%;
+  height: 10%
+}
+h1 {
+  color: #cc0000;
+  font-size: 36pt;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#date-articletype{
+  position: absolute;
+  right: 0px;
+  padding-right: 1%;
+  padding-top: 15px;
+}
+
+#month-year, #article-type {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #cc0000;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: right;
+}
+
+#left-column {
+  height: 60%;
+  /*border: solid 1px black;*/
+  margin-left: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#article{
+/*  border: solid 1px black;*/
+  width: 500px;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+img {
+  margin: 6px;
+  float: left;
+  width: 65%;
+}
+
+#first-paragraph, #second-paragraph {
+  margin-left: 6px;
+  margin-top: 3px;
+}
+
+#calendar {
+  width: 300px;
+  padding-left: 13px;
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.calendar-item {
+  width: 300px;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 12pt;
+  border-top: solid black 1px;
+  padding: 4px
+}  
+
+#last {
+  border-bottom: solid black 1px;
+}
+
+#first {
+  margin-top: 12px;
+}
